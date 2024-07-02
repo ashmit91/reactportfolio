@@ -26,7 +26,7 @@ const Navbar = () => {
           <NavLink href="#about">About</NavLink>
           <NavLink href='#skills'>Skills</NavLink>
           <NavLink href='#experience'>Experience</NavLink>
-          <NavLink href='#projects'>Projects</NavLink>
+          <NavLink href='https://drive.google.com/file/d/1KRLFfSlE_h6YhsW57O6TLxTIEvTsH255/view?usp=sharing'>CV</NavLink>
           <NavLink href='#education'>Education</NavLink>
         </NavItems>
         <ButtonContainer>

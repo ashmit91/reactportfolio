@@ -88,22 +88,22 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Rishav Chanda</Logo>
+        <Logo>Ashmit Chaudhary</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#experience">Experience</NavLink>
-          <NavLink href="#projects">Projects</NavLink>
+         
           <NavLink href="#education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
+          <SocialMediaIcon href="https://www.facebook.com/ashmit.sri.5" target="display"><FacebookIcon /></SocialMediaIcon>
+          <SocialMediaIcon href="https://x.com/AshmitChaudha20?s=09" target="display"><TwitterIcon /></SocialMediaIcon>
+          <SocialMediaIcon href="https://www.linkedin.com/in/ashmit-chaudhary-6bb832202?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="display"><LinkedInIcon /></SocialMediaIcon>
+          <SocialMediaIcon href="https://instagram.com/ig_____ashmit?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2023 Rishav Chanda. All rights reserved.
+          &copy; 2023 Ashmit Chaudhary. All rights reserved.
         </Copyright>
 
       </FooterWrapper>

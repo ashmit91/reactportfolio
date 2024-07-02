@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { skills } from '../../data/constants'
+import { Link } from 'react-router-dom'
 
 const Container = styled.div`
 display: flex;
@@ -121,10 +122,13 @@ const SkillImage = styled.img`
 
 const Skills = () => {
   return (
+   
+   
+ 
     <Container id="skills">
       <Wrapper>
         <Title>Skills</Title>
-        <Desc>Here are some of my skills on which I have been working on for the past 2 years.
+        <Desc>Here are some of my skills on which I have been working on for the past 3 years.
         </Desc>
         <SkillsContainer>
           {skills.map((skill) => (
@@ -135,6 +139,8 @@ const Skills = () => {
                   <SkillItem>
                     <SkillImage src={item.image}/>
                     {item.name}
+                    
+                  
                   </SkillItem>
                 ))}
               </SkillList>
@@ -144,6 +150,7 @@ const Skills = () => {
         </SkillsContainer>
       </Wrapper>
     </Container>
+  
   )
 }
 

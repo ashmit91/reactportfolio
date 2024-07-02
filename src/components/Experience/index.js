@@ -61,6 +61,7 @@ const Desc = styled.div`
     }
 `;
 
+
 const TimelineSection = styled.div`
     width: 100%;
     max-width: 1000px;
@@ -74,13 +75,19 @@ const TimelineSection = styled.div`
 
 
 
+
+
+
+
+
 const index = () => {
     return (
+       
         <Container id="experience">
             <Wrapper>
                 <Title>Experience</Title>
                 <Desc>
-                    My work experience as a software engineer and working on different companies and projects.
+                    My work experience as a software engineer and working on companies and projects.
                 </Desc>
                 <TimelineSection>
                     <Timeline>
@@ -91,7 +98,13 @@ const index = () => {
                                     {index !== experiences.length - 1 && <TimelineConnector style={{ background: '#854CE6' }} />}
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
+
                                     <ExperienceCard experience={experience}/>
+                                    <div>
+                   
+                     <a href={experience.link} target="_blank" >Visit Website</a>
+                   
+                  </div>
                                 </TimelineContent>
                             </TimelineItem>
                         ))}
